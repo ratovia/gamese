@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>gamese</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="left-header">
+        <!-- <img src="./gamese-logo.png" alt=""> -->
+        <h1>gamese</h1>
+      </div>
+      <div class="right-header">
+        <input type="text" placeholder="検索ワードを入れてください">
+        <p>menu</p>
+        <img src="./profile.jpg" alt="">
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="left-wrapper">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a href="#tab1" class="nav-link navbar-default active" data-toggle="tab">マイゲーム</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tab2" class="nav-link navbar-default" data-toggle="tab">お気に入り</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tab3" class="nav-link navbar-default" data-toggle="tab">おすすめ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tab4" class="nav-link navbar-default" data-toggle="tab">感動</a>
+          </li>
+        </ul>
+        <!--タブの中身-->
+        <div class="tab-content">
+          <div id="tab1" class="tab-pane active">
+            <div class="game-list">
+              <ul>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="tab2" class="tab-pane">
+            <div class="game-list">
+              <ul>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="tab3" class="tab-pane">
+            <div class="game-list">
+              <ul>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="tab4" class="tab-pane">
+            <div class="game-list">
+              <ul>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+                <li class="game-card">
+                  <img src="./arma3_apex.jpg" alt="">
+                  <p>Arma3 Apex</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="right-wrapper">
+        <div class="profile-card">
+          <div class="user-profile">
+            <img src="./profile.jpg" alt="">
+            <p>I'm gamer.I have a lot of game. For example Arma3, WarThunder</p>
+            <div class="clear"></div>
+          </div>
+          <div class="statistics">
+            <div class="count game-count">
+              <p>ゲームの数</p>
+              <a href="">30</a>
+            </div>
+            <div class="count friend-count">
+              <p>フォローの数</p>
+              <a href="">30</a>
+            </div>
+            <div class="count playtime-count">
+              <p>ゲーム時間</p>
+              <a href="">2.5h</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <ul>
+            <li><a href="">@ 2019 ratovia</a></li>
+            <li><a href="">お問い合わせ</a></li>
+            <li><a href="">規約</a></li>
+            <li><a href="">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+      </footer>
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>
